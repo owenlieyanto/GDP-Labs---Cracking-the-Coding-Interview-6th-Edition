@@ -125,7 +125,7 @@ class Demo {
      * environment options.
      */
     static void configure() {
-        if (System.getProperty("os.name").equals("Windows 10")) {
+        if (System.getProperty("os.name").equals("Windows 11")) {
             dialog = new WindowsDialog();
         } else {
             dialog = new HtmlDialog();
